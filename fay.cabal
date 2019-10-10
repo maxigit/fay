@@ -206,8 +206,8 @@ executable fay-tests
       , containers
       , directory
       , fay
-      , filepath
-      , haskell-src-exts
+      , filepath 
+      , haskell-src-exts >= 1.21.1
       , random >= 1.0 && < 1.2
       , tasty >= 0.9 && < 1.2
       , tasty-hunit >= 0.8 && < 0.11
